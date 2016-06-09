@@ -1,5 +1,5 @@
-class ServerStat
-	def self.statistics
+class ServerStatistics
+	def self.get
 		cpu_rvm_count = `ps -ef | grep rben |wc -l`
 		cpu_count = `ps -ef | wc -l`
 		uptime = `uptime`
