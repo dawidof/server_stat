@@ -7,6 +7,7 @@ You can add it to your Gemfile with:
 > gem 'server_stat'
 
 # How to use
+> require 'server_statistics'
 > ServerStatistics.get
 
 Will return 
